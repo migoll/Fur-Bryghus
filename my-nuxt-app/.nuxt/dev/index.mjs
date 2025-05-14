@@ -1016,7 +1016,7 @@ const _EW2doRdRVfVlThkkIkclKR1SAd9k8XNZxRly5aLXdlE = (function(nitro) {
 
 const rootDir = "/Users/christianlund/Documents/GitHub/Fur-Bryghus/my-nuxt-app";
 
-const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[],"style":[],"script":[],"noscript":[]};
+const appHead = {"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"}],"link":[],"style":[],"script":[],"noscript":[],"title":"Fur Bryghus"};
 
 const appRootTag = "div";
 
