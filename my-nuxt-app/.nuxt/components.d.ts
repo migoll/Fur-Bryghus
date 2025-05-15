@@ -13,7 +13,9 @@ type HydrationStrategies = {
 type LazyComponent<T> = (T & DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }>)
 interface _GlobalComponents {
       'BaseButton': typeof import("../src/components/BaseButton.vue")['default']
+    'BryggeprocessEntry': typeof import("../src/components/BryggeprocessEntry.vue")['default']
     'Button': typeof import("../src/components/Button.vue")['default']
+    'FEP': typeof import("../src/components/FEP.vue")['default']
     'FocusEntry': typeof import("../src/components/FocusEntry.vue")['default']
     'TheFooter': typeof import("../src/components/TheFooter.vue")['default']
     'TheHeader': typeof import("../src/components/TheHeader.vue")['default']
@@ -41,7 +43,9 @@ interface _GlobalComponents {
     'NuxtIsland': typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
       'LazyBaseButton': LazyComponent<typeof import("../src/components/BaseButton.vue")['default']>
+    'LazyBryggeprocessEntry': LazyComponent<typeof import("../src/components/BryggeprocessEntry.vue")['default']>
     'LazyButton': LazyComponent<typeof import("../src/components/Button.vue")['default']>
+    'LazyFEP': LazyComponent<typeof import("../src/components/FEP.vue")['default']>
     'LazyFocusEntry': LazyComponent<typeof import("../src/components/FocusEntry.vue")['default']>
     'LazyTheFooter': LazyComponent<typeof import("../src/components/TheFooter.vue")['default']>
     'LazyTheHeader': LazyComponent<typeof import("../src/components/TheHeader.vue")['default']>
@@ -75,7 +79,9 @@ declare module 'vue' {
 }
 
 export const BaseButton: typeof import("../src/components/BaseButton.vue")['default']
+export const BryggeprocessEntry: typeof import("../src/components/BryggeprocessEntry.vue")['default']
 export const Button: typeof import("../src/components/Button.vue")['default']
+export const FEP: typeof import("../src/components/FEP.vue")['default']
 export const FocusEntry: typeof import("../src/components/FocusEntry.vue")['default']
 export const TheFooter: typeof import("../src/components/TheFooter.vue")['default']
 export const TheHeader: typeof import("../src/components/TheHeader.vue")['default']
@@ -103,7 +109,9 @@ export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
 export const LazyBaseButton: LazyComponent<typeof import("../src/components/BaseButton.vue")['default']>
+export const LazyBryggeprocessEntry: LazyComponent<typeof import("../src/components/BryggeprocessEntry.vue")['default']>
 export const LazyButton: LazyComponent<typeof import("../src/components/Button.vue")['default']>
+export const LazyFEP: LazyComponent<typeof import("../src/components/FEP.vue")['default']>
 export const LazyFocusEntry: LazyComponent<typeof import("../src/components/FocusEntry.vue")['default']>
 export const LazyTheFooter: LazyComponent<typeof import("../src/components/TheFooter.vue")['default']>
 export const LazyTheHeader: LazyComponent<typeof import("../src/components/TheHeader.vue")['default']>
